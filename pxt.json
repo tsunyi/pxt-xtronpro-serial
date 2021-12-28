@@ -1,0 +1,30 @@
+{
+    "name": "xtronpro-serial",
+    "description": "",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts",
+        "serial-target.h",
+        "serial-common.h",
+        "serial-target.cpp",
+        "serial-common.cpp",
+        "serial-target.ts",
+        "serial.ts",
+        "enums.d.ts",
+        "shims.d.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.7.24",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
